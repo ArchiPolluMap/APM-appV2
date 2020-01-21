@@ -91,7 +91,7 @@ export class HomePage implements OnInit {
   }
 
   setAQI() {
-    this.aqi  = 301;
+    this.aqi  = 300;
     // this.aqi = Math.floor(Math.random() * 500);
     this.aqiServ.setAQI(this.aqi);
   }
